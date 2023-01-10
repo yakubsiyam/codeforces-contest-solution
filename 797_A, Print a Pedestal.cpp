@@ -11,8 +11,7 @@ int main()
 
     while(T--)
     {
-        double n;
-        int h1, h2, h3;
+        int n, h1, h2, h3;
         cin >> n;
 
         h2 = ceil(n / 3);
