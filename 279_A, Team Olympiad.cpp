@@ -4,12 +4,6 @@ using namespace std;
 const int MAX = 5000;
 int arr[MAX + 5];
 
-//int solve(int arr[])
-//{
-//    if(n == 1) return 2;
-//    return (n + 2) / 3;
-//}
-
 int main()
 {
     ios::sync_with_stdio(false);
