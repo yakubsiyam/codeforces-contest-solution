@@ -10,7 +10,7 @@ int main()
     bool flag = true;
     cin >> s;
 
-    for(int i=0; i<s.size(); i++){
+    for(int i = 0; i < s.size(); i++){
         if((i+2) < s.size()){
             if(s[i]=='W' && s[i+1]=='U' && s[i+2]=='B'){
                 i += 2;
@@ -19,7 +19,8 @@ int main()
                     flag=true;
                 }
             }
-            else{
+            else
+            {
                 cout<< s[i];
                 flag = false;
             }
@@ -28,6 +29,5 @@ int main()
             cout<<s[i];
         }
     }
-
     return 0;
 }
