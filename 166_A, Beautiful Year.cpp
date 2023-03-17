@@ -25,4 +25,5 @@ int main()
     cin >> n;
     cout << solve(n) << endl;
     return 0;
+    // main();
 }
