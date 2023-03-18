@@ -3,8 +3,8 @@ using namespace std;
 
 void solve()
 {
-	int a, b, c, d;
-	cin >> a >> b >> c >> d;
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
 	
     if (d < b) 
     {
