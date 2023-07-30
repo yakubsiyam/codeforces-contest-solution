@@ -25,7 +25,8 @@ int main()
                 flag = false;
             }
         }
-        else{
+        else 
+        {
             cout<<s[i];
         }
     }
