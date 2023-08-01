@@ -13,6 +13,7 @@ bool is_prime(long long n)
     return true;
 }
 
+
 int main()
 {
     ios::sync_with_stdio(false);
